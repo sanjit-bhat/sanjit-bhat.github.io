@@ -1,2 +1,2 @@
-# personal-website
-MIT CSAIL Personal Website
+# MIT CSAIL Personal Website
+
