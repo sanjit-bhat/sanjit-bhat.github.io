@@ -1,0 +1,211 @@
+
+<HTML><HEAD><TITLE>Srini Devadas</TITLE></HEAD>
+<!--
+<BODY BACKGROUND=images/yellow.gif>
+-->
+
+
+<TABLE>
+<TR VALIGN=CENTER>
+<!-- 
+<TD><IMG SRC="images/devnew.jpg" WIDTH=200 ></TD>
+<TD><IMG SRC="images/srini_serious2.jpg" WIDTH=200 ></TD>
+-->
+<TD><IMG SRC="images/srini-cs.png" WIDTH=200 ></TD>
+<!-- 
+<TD><IMG SRC="images/srini_2011.jpg" WIDTH=150 ></TD>
+<TD><IMG SRC="images/srini_workstation2.jpg" WIDTH=200 ></TD>
+-->
+
+<TD>
+<ul>
+<font size="+1">
+Srini Devadas<p>
+
+MIT Room 32G-844<br>
+32 Vassar Street<br>
+Cambridge, MA 02139 <br>
+U.S.A. <br>
+<a href="mailto:devadas@mit.edu">devadas@mit.edu</a><p>
+</font>
+</ul>
+</TD>
+
+</TABLE>
+
+</body></html>
+<p><hr><p>I am an <a href="http://en.wikipedia.org/wiki/Edwin_S._Webster">Edwin Sibley Webster<a/> Professor of
+<a href="http://www-eecs.mit.edu/">Electrical Engineering and Computer Science</a>
+at
+<a href="http://web.mit.edu/">MIT</a>
+in the
+<a href="http://www.csail.mit.edu/">Computer Science and Artificial Intelligence Laboratory (CSAIL)</a>.
+I belong to the <a href="http://www.csg.lcs.mit.edu/">Computation Structures Group</a>.
+My current research interests are primarily in the areas of computer architecture, computer security and applied cryptography.
+
+<p>
+
+One project I was involved with was building <a href="pubs/aegis.pdf">Aegis</a>,
+a single-chip secure processor that does not trust the operating system and which incorporated cryptographic measurement and attestation, <a href="pubs/hpca03.pdf">memory integrity verification</a> and
+<a href="pubs/encrypt_offline.pdf">memory encryption</a>; all these features were adopted in <A HREF="https://software.intel.com/en-us/sgx">Intel SGX</A>.
+
+<a href="http://csg.csail.mit.edu/pubs/
+memos/Memo-483/Memo-483.pdf">A version of Aegis</a> uses <a href="http://csg.csail.mit.edu/people/devadas/pubs/spuf.pdf">Physical Unclonable Functions (PUFs)</a>
+to generate secret keys from chip fabrication variations.
+
+<p>
+PUFs can also be used for low-cost authentication.
+This <a href="images/canon-rfid-puf.jpg">Canon camera</a> bought in 2014 can be <a href="images/big-canon.jpg">authenticated using an NFC-enabled phone</a> because the package has an <a href="http://www.canon-its.com.cn/EN/Connected.html">RFID PUF tag (black box marked Canon)</a> on it. Contrast the tag with the <a href="images/puf-board-2003.JPG"> first silicon PUF</a> built during 2002-04 at MIT!
+ <a href="http://www.eenewseurope.com/news/xilinx-add-puf-security-zynq-devices-0">Xilinx Zynq Ultrascale+ FPGAs</a> use PUFs to generate secret keys. 
+<!--
+<p>
+In 2013, my group fabricated
+<A HREF="http://csg.csail.mit.edu/pubs/memos/Memo-512/memo512.pdf">EM<sup>2</sup></A>,
+a 110-core Execution Migration Machine, a 10mm x 10mm, 357,000,000 transistor chip in 45nm technology. EM<sup>2</sup> uses
+<A HREF="pubs/nocs-2011-final.pdf">deadlock-free</A> computation migration to provide
+a shared memory abstraction without requiring directories and uses an
+<A HREF="pubs/mig-pred.pdf"> intelligent predictor</A>
+to determine when to migrate computation versus data and <A HREF=http://online.qmags.com/CMG0915/default.aspx?sessionID=801E5D5EBEFCA0BC508A77B12&cid=3151195&eid=19552&pg=52&mode=2#pg52&mode2>what part of the context to migrate</A>. You can read about our <a href="pubs/em2-iccd-2013.pdf">design experience</a>. <a href="images/EM2_die_photo.png">Chip die photo</a> and <a href="images/em2-board.jpg">EM<sup>2</sup> board</a>!
+-->
+<p>
+My research group designed <A HREF="pubs/ascend-stc12.pdf">Ascend, a new type of secure processor</A> that allows untrusted programs to compute on encrypted data from a client without leaking information about the data. Ascend uses <A HREF="pubs/PathORam.pdf">Path ORAM</A> with <A HREF="pubs/freecursive.pdf">optimizations and integrity verification</A> to obfuscate memory address patterns. Ascend also protects the <a href="pubs/ecu-hpca14.pdf">timing channel</a>.  Ascend was integrated with the Princeton Piton multicore processor and
+ <a href="images/piton-ascend.jpg">taped out in 32nm technology in March 2015</a>. The chip is 6mm x 6mm, contains more than 460,000,000 transistors and runs at <a href="pubs/ascend-chip.pdf">857 MHz, dissipating 166 mW @ 1.1V</a>.
+<p>
+My group recently produced a <A HREF="https://eprint.iacr.org/2016/086.pdf">detailed analysis of Intel SGX</A>. We used this knowledge and our experience with Aegis and Ascend to design <A HREF="https://eprint.iacr.org/2015/564.pdf">Sanctum</A>, a processor based on the <A HREF="http://riscv.org">RISC-V</A> that is resistant to a broader class of software attacks than SGX and whose security is easier to analyze. We have begun an effort to <A HREF="https://eprint.iacr.org/2017/565.pdf">formally verify Sanctum</A>.
+Sanctum uses a <a href="pubs/trapdoor.pdf">stateless cryptographically-secure PUF</a> to generate secret keys.
+<p>
+We came up with a time traveling coherence protocol based on logical-time leases called <A HREF="pubs/tardis.pdf">Tardis</A>, which has the unique feature that it does not require multicast or a globally synchronized clock, and only requires O(log N) storage in an N-core system. Tardis can be generalized to <A HREF="pubs/tardis2.0.pdf">relaxed consistency models</A>.
+<p>
+I am interested in the <A HREF="http://db.cs.cmu.edu/projects/1000cores/">scaling of databases and data management systems to 1000-core processors</A>. We have applied Tardis' idea of logical leases to <A HREF="pubs/tictoc.pdf">concurrency control for databases</A>.
+<p>
+My group pointed out <A HREF="pubs/circuit_finger.pdf">vulnerabilities in anonymizing networks</A>, and designed <A HREF="pubs/riffle.pdf">Riffle</A>, and <A HREF="https://arxiv.org/abs/1612.07841">Atom</A>, systems with strong anonymity. <A HREF="pubs/catena.pdf">Catena</A> is a system that uses <A HREF="https://bitcoin.org/en/">Bitcoin</A> to prevent equivocation.
+<hr>
+
+I am the Computer Science track coordinator of the <a href="http://web.mit.edu/primes">MIT PRIMES</a> high-school outreach program, a year-long program where high-school students are exposed to research and mentored by MIT students. I am an EECS oversight officer for the <a href="http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/6-7-computer-science-and-molecular-biology">6-7 undergraduate</a> and <a href="http://www.eecs.mit.edu/academics-admissions/undergraduate-programs/6-7-meng-degree-program-computer-science-molecular">6-7 MEng program</a>. 
+
+<p>
+
+I served as the chair of <a href="http://theory.lcs.mit.edu/areaii">Area II</a> (Computer
+Science Graduate Program) from June 2003 to November 2005,
+and as the Research Director of Architecture, Systems and Networking within
+<a href="http://www.csail.mit.edu/">CSAIL</a> from September 2003 to October 2005.
+I served as Associate Head of the
+<a href="http://www-eecs.mit.edu/">Department of Electrical Engineering and Computer Science</a> with responsibility for Computer Science from 2005 to 2011.
+<hr>
+
+<p>
+<H3>Selected Publications</H3>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=5>
+<TR><TD ALIGN="LEFT">
+<A HREF="pubs/arch.html">Computer Architecture.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/security.html">Computer Security.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/database.html">Database Management.</A>
+</TD>
+</TR>
+<TR><TD ALIGN="LEFT">
+<A HREF="pubs/compbio.html">Computational Biology.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/archexp.html">Architecture Exploration/Embedded Systems.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/compiler.html">Compiler Optimization.</A>
+</TD>
+</TR>
+<TR><TD ALIGN="LEFT">
+<A HREF="pubs/low-power.html">Design for Low Power Dissipation.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/boolean.html">Boolean Representation.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/async.html">Asynchronous Design.</A>
+</TD>
+</TR>
+<TR><TD ALIGN="LEFT">
+<A HREF="pubs/logic.html">Layout and Logic Synthesis.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/test.html">Test Generation/Synthesis for Testability.</A>
+</TD>
+<TD ALIGN="LEFT">
+<A HREF="pubs/form.html">Formal and Semi-Formal Verification.</A>
+</TD>
+</TR>
+<!--
+<TD ALIGN="LEFT">
+<A HREF="pubs/router.html">Network Routers.</A>
+</TD>
+-->
+</TABLE>
+</DIV>
+
+<p><hr>
+<p>
+<H3>Teaching</H3>
+
+My introductory programming book: <A HREF="https://mitpress.mit.edu/books/programming-puzzled">Programming for the Puzzled</A>. <A HREF="https://www.amazon.com/dp/0262534304/">Available on Amazon</A>.
+
+<p>
+
+I have taught several classes at MIT: <br><br>
+<a href="https://stellar.mit.edu/S/course/6/ia18/6.S095/index.html"> Programming for the Puzzled (6.S095)</a>, IAP 2018.
+<br>
+<a href="http://web.mit.edu/6.009"> Fundamentals of Programming (6.009)</a>, Fall 2015, Spring 2016, Spring 2017.
+<br>
+<a href="http://stellar.mit.edu/S/course/6/fa13/6.00/index.html"> Introduction to Computer Science and Programming (6.00)</a>, Spring 2012, Fall 2013.
+<br>
+<a href="http://courses.csail.mit.edu/6.857/2010"> Computer and Network Security (6.857)</a>, Spring 2010.
+<br>
+<a href="http://stellar.mit.edu/S/course/6/sp11/6.005/index.html"> Elements of Software Construction (6.005)</a>, Spring 2009, Fall 2010, Spring 2011.
+<br>
+<a href="http://stellar.mit.edu/S/course/6/sp15/6.046J/index.html"> Design and Analysis of Algorithms (the new 6.046)</a>, Fall 2008, Fall 2012, <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/">Spring 2015 OCW Version</a>.
+<br>
+<a href="http://courses.csail.mit.edu/6.006/fall11"> Introduction to Algorithms (6.006)</a>, Fall 2007, Spring 2008, Fall 2009, <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Fall 2011 OCW Version</a>, Spring 2014.
+<br>
+<a href="http://stellar.mit.edu/S/course/6/sp07/6.046/index.html"> Introduction to Algorithms (the old 6.046)</a>, Spring 2007.
+<br>
+Recitations in <a href="http://web.mit.edu/6.02/www/f2014/">Digital Communication Systems (6.02)</a>, Fall 2014.
+<br>
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-laboratory-in-software-engineering-fall-2005/"> Laboratory in Software Engineering (6.170)</a>, Fall 2001, Spring 2002, Fall 2003, Fall 2005.
+<br>
+<a href="http://csg.lcs.mit.edu/6.823"> Computer Architecture (6.823)</a>, Spring 2002, Fall 2009.
+<br>
+<a href="http://theory.lcs.mit.edu/classes/6.042"> Mathematics for Computer Science (6.042)</a>, Fall 1998, Fall 2000, Spring 2003, <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2005/">Spring 2005 OCW Version</a>.
+<br>
+<!-- 
+<ul>
+Teaching material for <a href="http://rle-vlsi.mit.edu/lsyn-book"> Logic
+Synthesis</a>.
+</ul>
+-->
+<a href="http://6004.mit.edu"> Computation Structures (6.004)</a>, Spring 2004, Fall 2006.  Teaching material from <a href="6.004/Lectures"> Fall 1996/Spring 1998 terms</a>.
+<br>
+Recitations in <a href="6.001">6.001: Structure and Interpretation of Computer Programs</a>, Fall 2004.
+<br>
+Recitations in <a href="http://web.mit.edu/6.033/2013/wwwdocs/">6.033: Computer Systems Engineering</a>, Spring 2013.
+<br>
+<a href="6.373/lectures"> Computer-Aided Design of Integrated Circuits (6.373)</a>, Spring 1989, Spring 1991-3-5-7, Spring 1999.
+<br>
+Introduction to VLSI Systems (6.371), Fall 1989, Spring 1990, Fall 1991, Fall 1994-5, Fall 1997.
+<br>
+Formal Verification in VLSI Design (6.892), Fall 1992.
+<br>
+Recitation sections in 6.002: Circuits and Electronics, Fall 1988.
+<br>
+
+<p><hr>
+<address> Srini Devadas</address>
+<address> MIT CSAIL</address>
+<address> 32-G844, 32 Vassar Street</address>
+<address> Cambridge, MA   02139 </address>
+<address> (617) 253 0454 </address>
+<address> (617) 253 6652 (Fax) </address>
+<address> <a href="mailto:devadas@mit.edu">devadas@mit.edu</a></address>
+
+</body></html>
