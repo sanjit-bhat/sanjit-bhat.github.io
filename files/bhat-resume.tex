@@ -1,0 +1,173 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc} 
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.80]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Sanjit}{Bhat}
+\title{R\'esum\'e}                               % optional, remove / comment the line if not wanted
+\address{27 Lexington Dr., Acton, MA 01720}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(978) 621-1365}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{978 266 1937}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{sanjit.bhat@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{people.csail.mit.edu/sanjit-bhat}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+
+\vspace{5pt}
+\begin{itemize}
+
+\item{\cventry{2015--Present}{Weighted GPA: 4.4/5.0, Unweighted GPA: 3.9/4.0}{Acton-Boxborough Regional High School}{Acton, MA}{}
+{\vspace{3pt}
+2017-18: Honors/AP BC Calculus, Physics, U.S. History II, Spanish IV, English III\\
+ACT Composite: 34; SAT Subject Test Math II: 800, Biology E: 790\\
+AP Courses: Computer Science A (5/5), BC Calculus (5/5), Physics C: Mechanics (5/5), U.S. History (5/5)
+}}
+
+\item{\cventry{2016--17}{USA Computing Olympiad (USACO) Silver, Gold, and Platinum courses}{AlphaStar Academy}{Santa Clara, CA}{}{
+\vspace{3pt} Computational geometry,  data structures, search techniques, graph algorithms, and dynamic programming.}}
+
+\item{\cventry{2015--17}{CS01 (Intro to CS), CS02 (AP CS), and CS91 (USACO Silver)}{KTByte Computer Science Academy}{Lexington, MA}{}{}}
+
+\end{itemize}
+
+\section{Honors and Awards}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{Jan 2017--Present}{Highly-selective year-long high school research program}{MIT Program for Research in Math, Engineering, and Science (PRIMES)}{}{}
+{\vspace{3pt}
+\begin{itemize}
+\item 2-person team CS research project involved attacking and defending users' anonymity on Tor Network
+\item Independently learned via fast.ai current best practices and techniques for applied  deep learning
+\item Invited to present at MAA Undergraduate Student Poster Session of 2018 Joint Mathematics Meeting, San Diego
+\item First-author of full-length conference paper submitted to a Tier 1 Computer Security conference
+\item  Re-admitted into 2018 PRIMES program. Currently working on solo project involving adversarial attacks and defenses in theoretical deep learning. Self-studying Linear Algebra, via MIT OpenCourseWare
+\end{itemize}}}
+
+\item{\cventry{2017}{\normalfont Submitted PRIMES 2017 research project}{Siemens Competition: Math, Science, Technology - Semifinalist}{}{}{}}
+
+\item{\cventry{Dec 2016}{\normalfont Penultimate level in highly-competitive CS Olympiad}{USA Computing Olympiad - Gold Level}{}{}{}}
+
+\item{\cventry{Feb 2016}{\normalfont Created a game that integrated visual perception, auditory cues, and motor functions}{MIT Blueprint Hackathon - 1\textsuperscript{st} place in Rookie Division}{}{}{}}
+
+\item{\cventry{2015--17}{\normalfont Received Gold-level in 2015 and 2016 and AB community service award in 2017}{President's Volunteer Service Award}{}{}{}}
+
+\item{\cventry{2018--Present}{\normalfont Member of Raymond J. Grey chapter}{National Honor Society}{}{}{}}
+
+\end{itemize}
+
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+\nocite{*}
+\bibliography{publications}{}
+\bibliographystyle{plain}
+
+\section{Extra-Curricular Activities}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2015--Present}{Co-Captain (Fall 2017--Present)}{AB IdeaLab (AB's Computer Science club)}{}{}
+{\vspace{3pt} 
+\begin{itemize}
+\item Organize team meetings, write introductory CS teaching material, and assist members with creating and executing original CS projects
+\item  Planned and executed Major League Hacking local hack day (AB's Hackathon) in Dec 2017
+\end{itemize}
+}}
+
+\item{\cventry{2015--Present}{Principal Tuba (2018--Present), Trumpet (2015--17)}{ABRHS Marching, Concert, and Jazz Bands}{}{}
+{\vspace{3pt} 
+\begin{itemize}
+\item 3\textsuperscript{rd} chair concert band tuba player at Jan 2018 MMEA Eastern District Senior Festival
+\item AB marching band received the gold medal at the 2017 State-level MICCA festival
+\end{itemize}}}
+
+\item{\cventry{2007--Present}{\normalfont District Level Winner, Intermediate Class, National Piano Guild Auditions}{Piano}{}{}{}}
+
+\item{\cventry{2015--16}{\normalfont Member of 15-student team: 1\textsuperscript{st} place at Yale Invitational Tournament}{AB Science Olympiad Team}{}{}{}}
+\end{itemize}
+
+\section{Community Service}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{April 2012--Present}{Eagle Scout (Earned Sep 2016)}{Boy Scouts of America, Troop 284, Acton, MA}{}{}
+{\vspace{3pt} 
+\begin{itemize}
+\item Senior Patrol Leader in 2016. Responsibilities included planning troop meetings and campouts and serving as the primary interface between scouts and adult leaders
+\item Eagle Scout project involved painting the kitchen set and green screen at Acton TV to enhance the production
+value of their programming and the quality of their Virtual Set shows
+\end{itemize}}}
+
+\item{\cventry{2016--Present}{\normalfont Share opinions and solutions about relevant issues facing AB students}{Regional Delegate, Central MA Regional Student Advisory Council}{}{}{}}
+
+\item{\cventry{Fall 17--Present}{\normalfont Assist high school students with their homework, studying, and organizational skills}{Peer Tutor}{}{}{}}
+
+\item{\cventry{Aug 2015--May 2017}{\normalfont Educated children with hands-on science exhibits}{Volunteer, Science Discovery Museum}{}{}{}}
+
+\end{itemize}
+
+\section{Work Experience}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{July 2015--Jan 2017}{\normalfont Assisted students with introductory CS using Java and Processing}{KTByte Computer Science Academy - Teaching Assistant}{Lexington, MA}{}
+{\vspace{3pt}.}}
+
+\end{itemize}
+
+\section{Technical Skills}
+
+\vspace{5pt}
+
+\begin{itemize}
+\item \textbf{Languages:} Java, Python, \LaTeX
+\vspace{5pt}
+\item \textbf{Libraries:} Keras, NumPy, TensorFlow
+\vspace{5pt}
+\item \textbf{OS:} Windows, Linux (Ubuntu)
+\end{itemize}
+
+\end{document}
