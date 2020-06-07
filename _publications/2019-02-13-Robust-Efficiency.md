@@ -1,7 +1,8 @@
 ---
-title: "Towards Ecient Methods for Training Robust Deep Neural Networks"
+title: "Towards Efficient Methods for Training Robust Deep Neural Networks"
 collection: publications
 permalink: /publication/2019-02-13-Robust-Efficiency
+excerpt: 'We study the efficiency of robust optimization from two different perspectives.'
 date: 2019-02-13
 venue: 'Regeneron Science Talent Search (STS) and Davidson's Fellowship'
 paperurl: 'https://sanjit-bhat.github.io/files/robust_efficiency19.pdf'
