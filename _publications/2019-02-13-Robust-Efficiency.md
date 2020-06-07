@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2019-02-13-Robust-Efficiency
 excerpt: 'We study the efficiency of robust optimization from two different perspectives.'
 date: 2019-02-13
-venue: 'Regeneron Science Talent Search (STS) and Davidson's Fellowship'
-paperurl: 'https://sanjit-bhat.github.io/files/robust_efficiency19.pdf'
+venue: 'Regeneron Science Talent Search (STS) and Davidson Fellows Scholarship'
+paperurl: 'https://sanjit-bhat.github.io/files/robust-efficiency19.pdf'
 authors: '<strong>Sanjit&nbsp;Bhat</strong>, Dimitris&nbsp;Tsipras, Aleksander&nbsp;Mądry'
 ---
 In recent years, it has been shown that neural networks are vulnerable to adversarial examples, i.e., specially crafted inputs that look visually similar to humans yet cause machine
