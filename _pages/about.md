@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I'm a second-year [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
-Honors Computer Science student
+Honors Computer Science undergraduate 
 at [UT Austin](https://www.utexas.edu/),
 broadly interested in the intersection of systems and security.
 At UT, I work with [Hovav Shacham](https://www.cs.utexas.edu/~hovav/)
