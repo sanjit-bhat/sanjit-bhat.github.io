@@ -19,6 +19,6 @@ that arisesstaleness. Taken together, these two techniques enable comparable rob
 the MNIST dataset to prior art with a 26× reduction in training time from 4 hours to just 9
 minutes.
 
-[Access paper here](https://sanjit-bhat.github.io/files/robust_efficiency19.pdf)</br>
+[Access paper here](https://sanjit-bhat.github.io/files/robust_efficiency19.pdf)<br/>
 [Access presentation here](https://docs.google.com/presentation/d/1lniZ0qCE43z2bliHya_W9767t69tttDb0pauDXRJ8Rs/edit?usp=sharing)
 
