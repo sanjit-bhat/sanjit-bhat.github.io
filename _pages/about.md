@@ -8,18 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I'm a senior at Acton-Boxborough Regional High School and a third-year
-student in the [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php) program,
+I'm a second-year [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
+Honors Computer Science student
+at [UT Austin](https://www.utexas.edu/),
+broadly interested in the intersection of systems and security.
+At UT, I work with [Dr. Hovav Shacham](https://www.cs.utexas.edu/~hovav/)
+on browser fingerprinting.
+What excites me is the application of technology for social good,
+and I'm constantly thinking about how this can be achieved.
+
+In high school, I spent three years in the 
+[MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php) program,
 a year-long independent research program for high school students.
-
-During my first year and part of my second year, I worked with
-David Lu under the mentorship of [Albert Kwon](http://albertkwon.com) on a Computer
-Security project. Together, we studied anonymous networks and created better Website Fingerprinting attacks and
-defenses. I worked mainly on the attack, applying novel techniques from deep learning
-to solve a network packet sequence classification problem.
-
-I'm currently working under the mentorship of [Dimitris Tsipras](http://people.csail.mit.edu/tsipras/)
-in the [Mądry Lab](http://people.csail.mit.edu/madry/lab) at MIT,
-conducting research in a subfield of theoretical machine learning called adversarial ML.
-My overarching goals are to understand the fundamentals of why and when neural networks work and back
-this understanding up with theory and rigorous experiments.
+During my first half of PRIMES, I worked with [David Lu](https://scholar.google.com/citations?user=SIIZ_bAAAAAJ&hl=en)
+under the mentorship of [Albert Kwon](https://albertkwon.com/) and [Srini Devadas](https://people.csail.mit.edu/devadas/).
+We studied anonymous communication networks and created state-of-the-art 
+website fingerprinting attacks and defenses against such networks.
+During my second half,
+I worked under the mentorship of [Dimitris Tsipras](http://people.csail.mit.edu/tsipras/)
+and [Aleksander Mądry](https://people.csail.mit.edu/madry/)
+in the [Mądry Lab](http://people.csail.mit.edu/madry/lab).
+We conducted research to improve the efficiency of adversarial machine learning, which is
+a technique used to harden deep neural networks against adversarial attacks.
