@@ -12,7 +12,7 @@ I'm a second-year [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
 Honors Computer Science student
 at [UT Austin](https://www.utexas.edu/),
 broadly interested in the intersection of systems and security.
-At UT, I work with [Dr. Hovav Shacham](https://www.cs.utexas.edu/~hovav/)
+At UT, I work with [Hovav Shacham](https://www.cs.utexas.edu/~hovav/)
 on browser fingerprinting.
 What excites me is the application of technology for social good,
 and I'm constantly thinking about how this can be achieved.
