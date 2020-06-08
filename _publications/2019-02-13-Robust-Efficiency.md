@@ -2,7 +2,6 @@
 title: "Towards Efficient Methods for Training Robust Deep Neural Networks"
 collection: publications
 permalink: /publication/2019-02-13-Robust-Efficiency
-excerpt: 'We study the efficiency of robust optimization from two different perspectives.'
 date: 2019-02-13
 venue: 'Regeneron Science Talent Search (STS) and Davidson Fellows Scholarship'
 paperurl: 'https://sanjit-bhat.github.io/files/robust-efficiency19.pdf'
@@ -20,5 +19,6 @@ that arisesstaleness. Taken together, these two techniques enable comparable rob
 the MNIST dataset to prior art with a 26× reduction in training time from 4 hours to just 9
 minutes.
 
-[Access paper here](https://sanjit-bhat.github.io/files/robust_efficiency19.pdf)
+[Access paper here](https://sanjit-bhat.github.io/files/robust_efficiency19.pdf)</br>
+[Access presentation here](https://docs.google.com/presentation/d/1lniZ0qCE43z2bliHya_W9767t69tttDb0pauDXRJ8Rs/edit?usp=sharing)
 
