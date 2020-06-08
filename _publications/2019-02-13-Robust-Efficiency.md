@@ -2,6 +2,7 @@
 title: "Towards Efficient Methods for Training Robust Deep Neural Networks"
 collection: publications
 permalink: /publication/2019-02-13-Robust-Efficiency
+excerpt:
 date: 2019-02-13
 venue: 'Regeneron Science Talent Search (STS) and Davidson Fellows Scholarship'
 paperurl: 'https://sanjit-bhat.github.io/files/robust-efficiency19.pdf'
