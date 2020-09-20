@@ -12,7 +12,7 @@ I'm a second-year [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
 Honors Computer Science undergraduate 
 at [UT Austin](https://www.utexas.edu/),
 interested in the intersection of systems and security.
-At UT, my advisor is [Hovav Shacham](https://www.cs.utexas.edu/~hovav/).
+At UT, my research advisor is [Hovav Shacham](https://www.cs.utexas.edu/~hovav/).
 What excites me is the application of technology for social good,
 and I'm constantly thinking about how this can be achieved.
 
