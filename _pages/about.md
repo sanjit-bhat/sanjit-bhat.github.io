@@ -21,7 +21,7 @@ I enjoy hacking on big computer systems, especially when that results in increas
 Recently, I've been excited about the use of formal verification to guarantee such properties.
 
 Prior to MIT, I was a [Turing Scholar](https://www.cs.utexas.edu/turing-scholars)
-honors computer science undergraduate at [UT Austin](https://www.utexas.edu/),
+honors computer science undergraduate at UT Austin,
 advised by [Hovav Shacham](https://www.cs.utexas.edu/~hovav/).
 Before that, I spent three years in the [MIT PRIMES](http://math.mit.edu/research/highschool/primes/index.php) program,
 working with [Srini Devadas](https://people.csail.mit.edu/devadas/)
