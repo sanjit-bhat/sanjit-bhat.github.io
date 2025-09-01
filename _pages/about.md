@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a third-year CS Ph.D. student at [MIT PDOS](https://pdos.csail.mit.edu/people/),
+I'm a fourth-year CS Ph.D. student at [MIT PDOS](https://pdos.csail.mit.edu/people/),
 advised by [Frans Kaashoek](https://people.csail.mit.edu/kaashoek/) and [Nickolai Zeldovich](https://people.csail.mit.edu/nickolai/),
 and supported by an [NSF GRFP](https://www.nsfgrfp.org/) fellowship.
 I enjoy hacking on big computer systems, especially when that results in increased security, reliability, and correctness.
