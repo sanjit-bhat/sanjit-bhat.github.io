@@ -3,6 +3,7 @@ layout: post
 date: 2025-10-07
 inline: true
 related_posts: false
+title: svd25
 ---
 
 [NESVD'25](https://svd.csail.mit.edu/2025/) talk on
